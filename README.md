@@ -1,4 +1,4 @@
-# NVM  Token 
+# NVM Token 
 
 Novem Gold AG Utility Token
 

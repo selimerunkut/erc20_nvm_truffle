@@ -5,7 +5,7 @@ import "@openzeppelin/contracts-upgradeable/token/ERC20/presets/ERC20PresetMinte
 import "@openzeppelin/contracts-upgradeable/token/ERC20/extensions/ERC20CappedUpgradeable.sol";
 
 /**
- * @title NVM  Token
+ * @title NVM Token
  * @dev this contract is a Pausable ERC20 token with Burn and Mint functions.
  * NOTE: All calls to this contract should be made through
  * the proxy, including admin actions.
