@@ -1,0 +1,37 @@
+{
+  "name": "erc20_nvm_token",
+  "version": "1.0.0",
+  "description": "Novem Token - ERC20 NVM",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@openzeppelin/contracts-upgradeable": "^4.0.0-beta.0",
+    "@openzeppelin/test-helpers": "^0.5.10",
+    "@openzeppelin/truffle-upgrades": "^1.5.0",
+    "chai": "^4.3.0",
+    "install": "^0.13.0",
+    "npm": "^7.6.3",
+    "truffle": "^5.2.3",
+    "truffle-assertions": "^0.9.2",
+    "truffle-flattener": "^1.5.0",
+    "truffle-plugin-verify": "^0.5.6"
+  },
+  "dependencies": {
+    "@openzeppelin/cli": "^2.8.2",
+    "@truffle/hdwallet-provider": "^1.2.2",
+    "solc": "^0.7.5",
+    "truffle-ledger-provider": "^1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selimerunkut/erc20_nvm.git"
+  },
+  "author": "Selim Erunkut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/selimerunkut/erc20_nvm/issues"
+  },
+  "homepage": "https://github.com/selimerunkut/erc20_nvm#readme"
+}
