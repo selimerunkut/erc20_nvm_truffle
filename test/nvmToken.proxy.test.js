@@ -42,4 +42,11 @@ contract('NVMToken (proxy)', async accounts => {
   it('has cap of 300 million tokens', async function () {
     expect(await this.nvmToken.cap()).to.be.bignumber.equal('300000000000000000000000000');
   });
+
+  it('reverts if the minted amount is more then 300 million tokens', async function () {
+    await expectRevert(
+      this.nvmToken.mint(accounts[0], web3.utils.toWei('300000001', 'ether')),
+      'ERC20Capped: cap exceeded',
+    );
+  });
 });
